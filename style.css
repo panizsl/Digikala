@@ -1,0 +1,341 @@
+@font-face {
+  font-family: Dirooz;
+  src: url("img/font/Dirooz.eot");
+  src: url("Dirooz.eot?#iefix") format("embedded-opentype"),
+    url("img/font/Dirooz.woff") format("woff"),
+    url("img/font/Dirooz.ttf") format("truetype");
+  font-weight: normal;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: "Dirooz";
+}
+#kharid {
+  height: 60px;
+  width: 100%;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 4px 30px 15px 100px;
+  color: gray;
+}
+#logo {
+  margin-top: 5px;
+  cursor: pointer;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+#search {
+  background-color: #f0f0f0;
+  margin-right: 20px;
+  padding: 10px 50px 10px 450px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+#basket {
+  cursor: pointer;
+  margin-left: -60px;
+  margin-top: 5px;
+  padding-right: 20px;
+  border-right: 1px solid #e0e0e2;
+}
+#login {
+  cursor: pointer;
+  margin-left: 15px;
+}
+.container3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container4 {
+  display: flex;
+  flex-direction: row;
+}
+#location {
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.container5 {
+  display: flex;
+  flex-direction: row;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.head1 {
+  font-size: 13px;
+  color: #62666d;
+  padding: 10px;
+  cursor: pointer;
+}
+.head1:hover {
+  color: #414347;
+}
+.head {
+  font-size: 13px;
+  padding-right: 16px;
+  color: #62666d;
+}
+.icon {
+  padding-right: 12px;
+  padding-left: 4px;
+}
+#menu {
+  cursor: pointer;
+}
+
+#kala {
+  color: #424750;
+  font-size: 16px;
+  padding-right: 5px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+.slider {
+  width: 100%;
+}
+.container6 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 35px 100px 35px 100px;
+}
+.imgicon {
+  width: 52px;
+  height: 52px;
+  cursor: pointer;
+}
+.icontext {
+  font-size: 11px;
+  text-align: center;
+  color: #27292d;
+  cursor: pointer;
+}
+.container7 {
+  display: flex;
+  flex-direction: row;
+  background-color: #ef394e;
+  margin: -15px 25px 10px 25px;
+  border-radius: 15px;
+  padding: 20px 20px 10px 20px;
+}
+.pishnahad1 {
+  text-align: center;
+  flex: 13%;
+  height: 245px;
+  background-color: white;
+  border-radius: 0px 8px 8px 0px;
+  border-left: 2px solid #ef394e;
+}
+.pishnahadimg {
+  margin-top: 12px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+.gheimat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 15px 0px 15px;
+  cursor: pointer;
+}
+
+.price2 {
+  font-size: 16px;
+  margin: 0px;
+  padding: 0px;
+  cursor: pointer;
+}
+.sale {
+  background-color: #ef394e;
+  font-size: 12px;
+  border-radius: 20px;
+  padding: 3px 12px 0px 12px;
+  color: white;
+  cursor: pointer;
+}
+.qeimat {
+  color: #c8c9cc;
+  font-size: 12px;
+  text-decoration: line-through;
+  text-align: left;
+  padding: 10px 0px 0px 30px;
+  cursor: pointer;
+}
+.pishnahad {
+  text-align: center;
+  flex: 13%;
+  height: 245px;
+  background-color: white;
+  border-left: 2px solid #ef394e;
+  cursor: pointer;
+}
+.logopishnahad {
+  flex: 13%;
+  text-align: center;
+  cursor: pointer;
+}
+#boxpishnahad {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+}
+.container8 {
+  display: flex;
+  flex-direction: row;
+  background-color: #eaeff7;
+  justify-content: space-between;
+  margin: -3px 15px 0px 25px;
+  width: 96%;
+  height: 100px;
+  border-radius: 15px;
+  text-align: center;
+}
+.super {
+  margin-left: 70%;
+  cursor: pointer;
+}
+.box {
+  margin: 15px 50px 0px 0px;
+  cursor: pointer;
+}
+.container9 {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 25px 0px 10px;
+  justify-content: center;
+}
+.baner {
+  border-radius: 15px;
+  height: 235px;
+  width: 313px;
+  margin-left: 15px;
+}
+.dastebandi {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px 0px 40px 0px;
+}
+.container10 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 50px 30px 50px;
+}
+.dastebandi2 {
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  margin-right: 45px;
+  cursor: pointer;
+}
+.dasteax {
+  height: 170px;
+  width: 170px;
+  cursor: pointer;
+}
+.container11 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 50px 30px 50px;
+}
+.ax {
+  width: 630px;
+  height: 257;
+  margin: 0px 0px 0px 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.pishnahaddigi {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+}
+.pishnahadleft {
+  border: 1px solid #e0e0e2;
+  width: 216px;
+  height: 150px;
+  border-radius: 15px 0px 0px 0px;
+}
+.pishnahadcenter {
+  border: 1px solid #e0e0e2;
+  width: 216px;
+  height: 150px;
+}
+.pishnahadright {
+  border: 1px solid #e0e0e2;
+  width: 216px;
+  height: 150px;
+  border-radius: 0px 15px 0px 0px;
+}
+.divitem {
+  background-color: #f2f2f2;
+  margin-top: 20px;
+  width: 84px;
+  height: 84px;
+  border-radius: 100%;
+}
+.axpishnahad {
+  margin-top: 15px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.itemtext {
+  font-size: 14px;
+}
+.pishnahaddigi2 {
+  display: flex;
+  flex-direction: row;
+  width: 1300px;
+}
+.pishnahadleft2 {
+  border: 1px solid #e0e0e2;
+  width: 216px;
+  height: 150px;
+  border-radius: 0px 0px 0px 15px;
+}
+.pishnahadright2 {
+  border: 0.25px solid #e0e0e2;
+  width: 216px;
+  height: 150px;
+  border-radius: 0px 0px 15px 0px;
+}
+.container12 {
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  height: 225px;
+  border: 1px solid #e0e0e2;
+  border-radius: 15px;
+  margin-top: 25px;
+}
+.brand {
+  font-size: 21px;
+  text-align: center;
+  padding: 25px;
+}
+.container13 {
+  display: flex;
+  flex-direction: row;
+}
+.branditem {
+  width: 162px;
+  border-left: 1px solid #e0e0e2;
+}
+.brandimage {
+  padding-top: 10px;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+}
